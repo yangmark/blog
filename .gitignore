@@ -1,0 +1,19 @@
+# Hugo 產生的靜態檔案
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Hugo Modules 快取
+/go.sum
+
+# 系統與編輯器
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node（若使用 Tailwind 自訂樣式）
+node_modules/

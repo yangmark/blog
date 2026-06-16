@@ -1,0 +1,30 @@
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+[[main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 40
+
+[[main]]
+  pre = "github"
+  name = "GitHub"
+  url = "https://github.com/your-username/blog"
+  weight = 50
+
+[[footer]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 10
