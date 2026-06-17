@@ -1,7 +1,7 @@
 # -- Site Configuration --
 # https://blowfish.page/docs/getting-started/
 
-baseURL = "https://your-username.github.io/blog/"
+baseURL = "https://yangmark.github.io/blog/"
 defaultContentLanguage = "zh-tw"
 languageCode = "zh-tw"
 
