@@ -17,6 +17,6 @@ title = "My Blog"
   headline = "Building things, writing thoughts"
   bio = "A short bio goes here."
   links = [
-    { github = "https://github.com/your-username" },
+    { github = "https://github.com/yangmark" },
     { email = "mailto:you@example.com" },
   ]

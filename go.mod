@@ -1,4 +1,4 @@
-module github.com/your-username/blog
+module github.com/yangmark/blog
 
 go 1.23
 

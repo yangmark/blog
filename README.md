@@ -71,8 +71,8 @@ flowchart LR
 
 | 類型 | Repository 名稱 | 網址範例 | `baseURL` 設定 |
 |------|-----------------|----------|----------------|
-| 使用者網站 | `your-username.github.io` | `https://your-username.github.io/` | `https://your-username.github.io/` |
-| 專案網站 | `blog`（任意名稱） | `https://your-username.github.io/blog/` | `https://your-username.github.io/blog/` |
+| 使用者網站 | `your-username.github.io` | `https://yangmark.github.io/` | `https://yangmark.github.io/` |
+| 專案網站 | `blog`（任意名稱） | `https://yangmark.github.io/blog/` | `https://yangmark.github.io/blog/` |
 
 > GitHub Actions 會在建置時自動覆寫 `baseURL`，但本地開發時請在 `config/_default/hugo.toml` 設定正確的 `baseURL`。
 
@@ -80,7 +80,7 @@ flowchart LR
 
 依序修改以下檔案：
 
-1. **`go.mod`** — 將 `github.com/your-username/blog` 改為你的 repository 路徑
+1. **`go.mod`** — 將 `github.com/yangmark/blog` 改為你的 repository 路徑
 2. **`config/_default/hugo.toml`** — 設定 `baseURL`
 3. **`config/_default/languages.zh-tw.toml`** — 網站標題、作者名稱、社群連結
 4. **`assets/img/author.jpg`** — 放入作者頭像
@@ -103,7 +103,7 @@ hugo server -D
 git init
 git add .
 git commit -m "Initial blog setup with Hugo Blowfish"
-git remote add origin https://github.com/your-username/blog.git
+git remote add origin https://github.com/yangmark/blog.git
 git push -u origin main
 ```
 
