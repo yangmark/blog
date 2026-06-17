@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # 確保 Blowfish 主題子模組有被順利抓到
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
@@ -32,7 +32,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.142.0"
-          extended: true # Blowfish 主題通常需要 extended 版本來處理 CSS
+          extended: true
 
       - name: Setup Go
         uses: actions/setup-go@v5
