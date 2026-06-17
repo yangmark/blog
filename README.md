@@ -58,7 +58,7 @@ flowchart LR
 
 | 工具 | 版本建議 | 用途 |
 |------|----------|------|
-| [Hugo Extended](https://gohugo.io/installation/) | ≥ 0.142 | 靜態網站產生器（需 Extended 版以支援 SCSS） |
+| [Hugo Extended](https://gohugo.io/installation/) | ≥ 0.158 | 靜態網站產生器（需 Extended 版以支援 SCSS；Blowfish v2.103+ 需要 ≥ 0.158） |
 | [Go](https://go.dev/dl/) | ≥ 1.21 | Hugo Modules 下載主題 |
 | [Git](https://git-scm.com/) | 任意 | 版本控制 |
 | GitHub 帳號 | — | 託管與部署 |

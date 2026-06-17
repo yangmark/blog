@@ -3,7 +3,6 @@
 
 baseURL = "https://yangmark.github.io/blog/"
 defaultContentLanguage = "zh-tw"
-languageCode = "zh-tw"
 
 enableRobotsTXT = true
 summaryLength = 30
