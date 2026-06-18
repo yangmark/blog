@@ -7,6 +7,7 @@ hugo_stats.json
 
 # Hugo Modules 快取
 /go.sum
+/_vendor/
 
 # 系統與編輯器
 .DS_Store
