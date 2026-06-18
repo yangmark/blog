@@ -42,7 +42,6 @@ flowchart LR
 │   ├── module.toml                  # Blowfish 主題模組
 │   ├── params.toml                  # 主題外觀與行為
 │   ├── languages.zh-tw.toml         # 繁體中文語系
-│   ├── languages.en.toml            # 英文語系（可選）
 │   ├── menus.zh-tw.toml             # 導覽選單
 │   └── markup.toml                  # Markdown 渲染設定
 ├── content/                         # 網站內容
@@ -95,7 +94,7 @@ hugo mod get -u ./...
 hugo server -D
 ```
 
-開啟 [http://localhost:1313](http://localhost:1313) 預覽。`-D` 會包含 `draft: true` 的草稿文章。
+開啟 [http://localhost:1313/blog/](http://localhost:1313/blog/) 預覽。`-D` 會包含 `draft: true` 的草稿文章。
 
 ### 4. 部署到 GitHub Pages
 
@@ -183,10 +182,6 @@ blowfish | github | noir | forest | neon | terminal | ...
 defaultAppearance = "dark"      # 預設深色
 autoSwitchAppearance = true     # 跟隨系統設定
 ```
-
-## 多語系
-
-框架預設以繁體中文（`zh-tw`）為主語系，並保留英文語系檔案。若要啟用英文內容，在 `content/` 建立對應語系子目錄，例如 `content/en/posts/`。
 
 ## CI/CD 流程
 

@@ -3,6 +3,7 @@ title: "關於我"
 description: "關於這個部落格與作者"
 showDate: false
 showReadingTime: false
+showEdit: false
 ---
 
 你好！這裡是關於頁面。
